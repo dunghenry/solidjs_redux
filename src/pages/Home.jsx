@@ -11,7 +11,9 @@ const Home = () => {
         <div>
             <h2>Home</h2>
             <Form />
-            <For each={todos} by>{(todo) => <TodoItem todo={todo} />}</For>
+            <For each={todos} by>
+                {(todo) => <TodoItem todo={todo} />}
+            </For>
         </div>
     );
 };

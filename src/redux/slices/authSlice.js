@@ -1,7 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
     loading: false,
-    currentUser: {},
+    currentUser: {
+        id: 1,
+        fullName: 'Tran Dung',
+        isAdmin: true,
+    },
     error: false,
 };
 const authSlice = createSlice({

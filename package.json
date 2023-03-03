@@ -19,7 +19,7 @@
     "@solidjs/router": "^0.7.0",
     "axios": "^1.3.4",
     "redux-logger": "^3.0.6",
-    "solid-js": "^1.6.10",
+    "solid-js": "^1.6.11",
     "solid-redux-primitives": "^0.1.4"
   }
 }
